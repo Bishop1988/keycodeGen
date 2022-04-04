@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Sora', sans-serif;
+}
+
+body {
+    background-color: #C1CFDA;
+}
+
+.start-screen {
+    position: relative;
+    height: 100vh;
+    background-color: #C1CFDA;
+    color: black;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+.wrapper {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    text-align: center;
+    min-width: 1300px;
+}
+
+.header-container {
+    font-size: 2.5rem;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+
+.information-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 83.5%;
+    min-height: 750px;
+    max-height: 1000px;
+
+ }
+
+.display-which {
+    font-size: 300px;
+    background-color: #20A4F3;
+    color: black;
+    border-radius: 15px;
+    width: 600px;
+    margin: auto auto;
+}
+
+.display-key-data {
+    display: flex;
+    height:max-content;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 450px;
+} 
+
+.key-data {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    background-color: #20A4F3;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+}  
+
+.key-data h3 {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+    background-color: grey;
+    border-radius: 5px 5px 0 0;
+    padding: 1rem 0;
+}
+
+.key-data p {
+    font-size: 2.4rem;
+}
